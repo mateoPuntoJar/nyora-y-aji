@@ -1,0 +1,148 @@
+@font-face{
+    font-family: panton;
+    src: url(/REPOSITORIO/fuentes/Open_Sans/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    ::selection {
+        color: hsl(0, 0%, 100%); /* Color del texto seleccionado */
+        background-color: hsl(0, 0%, 20%); /* Color de fondo del texto seleccionado */
+    }
+    
+    /* Para navegadores como Firefox, necesitas usar esta pseudo-clase adicional */
+    ::-moz-selection {
+        color: #ffffff; /* Color del texto seleccionado */
+        background-color: #333333; /* Color de fondo del texto seleccionado */
+    }
+    
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    }
+
+
+.logo{
+    width: 100%;
+    height: 780px;
+    background-image: url(REPOSITORIO/fondo-oscuro-2.jpg);
+}
+    
+.logo-nyora{
+    float:left;
+    margin: 20px;
+
+}
+
+.navegacion{
+        display: flex;
+        justify-content: space-around; /* Espacio entre los elementos */
+        list-style-type: none; /* Eliminar los puntos de la lista si es ul */
+        padding: 50px;
+        margin: 0%;
+        font-size: 14px;
+        /*font-family:*/
+        font-style: normal;
+}
+
+.navegacion a:link{
+    color: hsl(0, 0%, 100%);
+}
+
+.navegacion a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.navegacion a:hover{
+    color: hsl(60, 6%, 87%);
+}
+
+.presentacion{
+    width: 300px;   /* Ancho fijo */  
+    height: auto;   /* Altura automática */
+    margin: 20px auto;  /* Centrado horizontal */
+    padding: 20px;  /* Espacio interno */ 
+    box-sizing: border-box; 
+}
+
+.productos{
+    margin: 50px auto;   /* Margen que se deja con respecto a otras cajas */
+}
+
+ul,li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    filter: invert(100%);
+}
+
+.rights{
+    color: hsl(0, 0%, 100%);
+}
+
+.information-box a:visited{
+    color: hsl(0, 0%, 100%); 
+}
+
+.information-box a:hover{
+    color: hsl(0, 0%, 86%);
+}
+
+
+.legal a:visited{
+color: hsl(0, 0%, 100%);
+}
+
+.legal a:hover{
+color: rgba(153, 123, 84, 0.658);
+}
+
+.menu{
+
+}
+
+.link{
+
+}
+
+.legal{
+    
+}
+
+.footer-container{
+    background-color: hsl(0, 0%, 11%);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
