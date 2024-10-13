@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva mesa en nuestro Restaurante Nyora y Ají en Alicante</title>
+    <link rel="stylesheet" href="estilos-reserva.css" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="menu">
+        <a href="index.html"><img class="logo-nyora" src="REPOSITORIO/logo-nyora-byn.png" alt="Logo del restaurante Nyora y ají" width="100px"></a>
+
+        <nav id="navegacion">
+            <ul class="navegacion"> 
+                <li class="menu-link"><a href="index.html#quienesomos">NUESTRA HISTORIA</a></li>
+                <li><a href="reserva.html">RESERVA</a></li>
+                <li class="menu-link"><a href="index.html#productos">PRODUCTOS Y SERVICIOS</a></li>
+                <li class="menu-link"><a href="index.html#trabaja">UNETE AL EQUIPO</a></li>
+                <li class="menu-link"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <h1>Reservas</h1>
+        <h2>Nyora y Ají</h2>
+    </header>
+
+    <main>
+       <section class="introduction">
+        <p>RESERVA AQUÍ TU EXPERIENCIA EN</p>
+        <h1>Nyora y Ají</h1>
+        <p>Estás acercándote a lo desconocido</p>
+        <a class="reserve-information" href="información-de-reservas.html" target="_blank">En el siguiente enlace os dejamos información importante sobre las reservas en nuestro Espacio Montoro.</a>
+        <p class="text-gray">Es importante para nosotros saber si alguno de los comensales sufre algún tipo de alergia o intolerancia alimentaria.</p>
+        <p class="text-gray">Los cambios y anulaciones deben realizarse con un mínimo 2 días de antelación a la fecha de reserva.</p>
+        <button onclick="goToInformation()" id="reserve-information-button">HAZ CLICK AQUÍ Y DESCUBRE CÓMO FUNCIONA NYORA Y AJÍ</button>
+       </section>
+
+       <section class="section-comensales">
+        <h1>Disponemos de mesas de 1 hasta 12 comensales</h1>
+        <p>Para reservas de más de 12 comensales es necesario contactar personalmente con el restaurante en el <a class="contact-link" href="https://wa.me/34623196560" target="_blank">623 196 560</a>, o escribiéndonos a través de <a class="contact-link" href="mailto:reservasnyorayaji@gruponyora.com">reservasnyorayaji@gruponyora.com</a></p>
+       </section>
+
+       <section class="section-funcionamiento">
+        <h1>Echa un vistazo al funcionamiento antes de reservar</h1>
+        <p><strong>En Nyora y Ají ofrecemos una experiencia única.</strong> Para llevarla a cabo es necesario una estructura y planificación especial, es por ello que necesitamos que conozcáis <strong>«las reglas del juego».</strong></p>
+        
+        <div class="menus-container">
+            <p>-<strong>ESPACIO MONTORO</strong>: Espacio Montoro es un lugar abierto y versátil. Si estás interesado en nuestras instalaciones para eventos, sólo tienes que contactar con nosotros</p>
+            <p>- <strong>3 OPCIONES DE MENÚS</strong>: Nuestra oferta gastronómica se centra en tres opciones de menús, Menú Sensaciones, de 95€ por comensal, Menú Sentidos, de 115€ y Menú Montoro, de 130€. ¿A qué esperas para probarlos?</p>
+        </div>
+        
+       <button onclick="goToInformation()" id="information-reserve-button">MÁS INFORMACIÓN SOBRE RESERVAS</button>
+    </section>
+
+        <hr class="zigzag-separator">
+
+
+        <section class="contacto">
+            <p><strong>También podéis contactarnos en el <a href="https://wa.me/34623196560" target="_blank">623 196 560</a> o a través de <a href="mailto:reservasnyorayaji@gruponyora.com" target="_blank">nuestro mail de Reservas</a></strong></p>
+
+            <button onclick="goToContacte()" id="contacteButton">CONTACTA</button>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    <footer class="footer-container">
+        <div class="information-box">
+            <h1>NYORA Y AJI</h1>
+            <a href="https://wa.me/34623196560" target="_blank">623 196 560</a>
+            <p> Dársena Pesquera, Local 10</p>
+            <p>03008 · Alicante · España</p>
+            <a href="https://www.google.com/maps/place/Restaurante+%C3%91ora+y+Aj%C3%AD/@38.3293474,-0.5082354,1734m/data=!3m1!1e3!4m6!3m5!1s0xd623738d0104a55:0xfd0417eb281a3f1b!8m2!3d38.3304324!4d-0.5056786!16s%2Fg%2F11h6y_292k?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">¿Cómo llegar?</a>
+        </div>
+
+        <nav>
+            <ul class="footer-navigation"> 
+                <li><a href="#quienesomos">¿Quiénes somos?</a></li>
+                <li><a href="#productos">Nuestra carta</a></li>
+                <li><a href="reserva.html">Reserva con Nosotros</a></li>
+                <li><a href="contacto.html" target="_blank">Contáctanos</a></li>
+                <li><a href="#trabaja">Únete al equipo</a></li>
+            </ul>
+        </nav>
+
+        <div class="link">
+            <ul>
+                <li><a href="https://www.instagram.com/nyorayaji/" target="_blank"><img src="/REPOSITORIO/LOGO-INSTA.png" alt="Logo de Instagram"></a></li>
+                <li><a href="https://www.facebook.com/p/Restaurante-%C3%91ora-y-Aj%C3%AD-100063566405815/" target="_blank"><img src="/REPOSITORIO/LOGO-FACE.png" alt="Logo de Facebook" width="60"></a></li>
+                <li><a href="https://wa.me/34623196560" target="_blank"> <img src="/REPOSITORIO/logo-whatsapp.png" alt="Logo de Whatsapp"></a></li>
+                <li><a href="https://www.tripadvisor.es/Restaurant_Review-g1064230-d17456768-Reviews-Nora_y_Aji-Alicante_Costa_Blanca_Province_of_Alicante_Valencian_Community.html" target="_blank"><img src="/REPOSITORIO/LOGO-TRIP.png" alt="Logo de TripAdvisor" width="60" height=""></a></li>
+            </ul>    
+        </div>
+
+        <div class="legal">
+            <ul>
+                <li><a href="politica-privacidad.html" target="_blank">Politica de privacidad</a></li>
+                <li><a href="terminos-y-condiciones.html" target="_blank">Términos y condiciones</a></li>
+                <li><a href="aviso-legal.html" target="_blank">Aviso legal</a></li>
+                <li><a href="politica-cookies.html" target="_blank">Política de cookies</a></li>
+            </ul>
+            <p class="rights">&copy;2024 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

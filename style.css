@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 @font-face{
     font-family: panton;
     src: url(/REPOSITORIO/fuentes/Open_Sans/OpenSans-Regular.ttf);
@@ -16,6 +18,9 @@
         background-color: #333333; /* Color de fondo del texto seleccionado */
     }
     
+html{
+    box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -25,28 +30,67 @@ body{
     text-align: center;
     }
 
+header{
+    
+}
 
 .logo{
     width: 100%;
     height: 780px;
-    background-image: url(REPOSITORIO/fondo-oscuro-2.jpg);
+    background-image: url(REPOSITORIO/fondo-negro-menu.jpg);
 }
-    
+
+.button-menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-menu-container img{
+    margin-top: 200px;
+    width: 400px;
+}
+
+.logo button{
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFCC00;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-menu-container button:hover{
+    background-color: #FFF500;
+}
+
+.button-menu-container button + button{
+    margin-top: 430px;
+}
+
+.button-menu-container img{
+    margin-top: 80px;
+}
+
 .logo-nyora{
     float:left;
     margin: 20px;
-
+    width: 200px;
 }
 
 .navegacion{
-        display: flex;
-        justify-content: space-around; /* Espacio entre los elementos */
-        list-style-type: none; /* Eliminar los puntos de la lista si es ul */
-        padding: 50px;
-        margin: 0%;
-        font-size: 14px;
-        /*font-family:*/
-        font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    gap: 35px;
 }
 
 .navegacion a:link{
@@ -61,16 +105,89 @@ body{
     color: hsl(60, 6%, 87%);
 }
 
-.presentacion{
-    width: 300px;   /* Ancho fijo */  
-    height: auto;   /* Altura automática */
-    margin: 20px auto;  /* Centrado horizontal */
-    padding: 20px;  /* Espacio interno */ 
-    box-sizing: border-box; 
+.quienesomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 80px 0;
 }
 
-.productos{
-    margin: 50px auto;   /* Margen que se deja con respecto a otras cajas */
+.quienesomos p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quienesomos h1+p{
+    font-size: 20px;
+}
+
+.quienesomos h2{
+    font-size: 40px;
+}
+
+.quienesomos h2+p{
+    font-size: 32px;
+    width: 450px;
+    text-align: center;
+}
+
+.images img{
+    width: 500px;
+    height: auto;
+    margin: 20px 100px;
+}
+
+.aditional-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    gap: 100px;
+    text-align: left;
+}
+
+.quienesomos button{
+    padding: 10px 0;
+    margin: 30px 0;
+    width: 170px;
+    font-size: 12px;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+    
+.quienesomos button:hover{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid transparent;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1330px;
+    margin: 0 auto;
+    background-color: #C7AB7B;
+    font-size: 30px;
+    height: 250px;
+}
+
+.newsletter p{
+    margin-bottom: 100px;
+    margin: 0;
+}
+
+.newsletter button{
+    margin-top: 20px;
+    width: 130px;
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(0, 1%, 26%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 ul,li, a{
@@ -78,13 +195,67 @@ ul,li, a{
     text-decoration: none;
 }
 
-.link{
-    display: flex;
-    justify-content: center;
-    filter: invert(100%);
+.work-together a{
+    color:hsl(0, 0%, 0%)
 }
 
-.rights{
+.work-together{    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0;
+}
+
+.work-together p{
+    margin: 8px;
+}
+
+.work-together h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos del footer */
+.information-box a:link{
     color: hsl(0, 0%, 100%);
 }
 
@@ -96,37 +267,142 @@ ul,li, a{
     color: hsl(0, 0%, 86%);
 }
 
+.information-box{
+    margin: 60px;
+}
+
+.footer-navigation a:link{
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-navigation a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-navigation a:hover{
+    color: hsl(0, 0%, 86%);
+}
+
+.footer-navigation li{
+    margin: 15px;
+}
+
+.footer-navigation{
+    margin: 60px;
+}
+
+.link a{
+    filter: invert(100%);
+}
+
+.link{
+    margin: 60px;
+}
+
+.legal a:link{
+    color: hsl(0, 0%, 100%);
+}
 
 .legal a:visited{
 color: hsl(0, 0%, 100%);
 }
 
 .legal a:hover{
-color: rgba(153, 123, 84, 0.658);
-}
-
-.menu{
-
-}
-
-.link{
-
+    color: hsl(0, 0%, 86%);
 }
 
 .legal{
-    
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.legal li,
+.legal p{
+    margin: 10px;
 }
 
 .footer-container{
-    background-color: hsl(0, 0%, 11%);
+    height: 300px;
     display: flex;
-    justify-content: space-between;
-    color: #fff;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    text-align: left;
+    background-color: hsl(0, 0%, 11%);
+    color: #fff;
     font-family: Arial, sans-serif;
 }
 
+.footer-container h1{
+    font-size: 16px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.caja{
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 150px;
+
+}
+
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid rgb(163, 51, 51);
+    background: #ccc;
+    padding: 20px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}*/
 
 
 

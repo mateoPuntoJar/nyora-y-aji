@@ -3,234 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nyora y ají</title>
+    <title>Home Nyora y ají - Nyora y Ají</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="logo" id="logo">
-        <img class="logo-nyora" src="REPOSITORIO/LOGO.NYORA.png" alt="Logo del restaurante Nyora y ají" width="100px">
+        <a href="index.html"><img class="logo-nyora" src="REPOSITORIO/LOGO.NYORA.png" alt="Logo del restaurante Nyora y ají" width="100px"></a>
 
         <nav id="navegacion">
             <ul class="navegacion"> 
-                <li><a href="#quienesomos">QUIENES SOMOS</a></li>
-                <li><a href="#productos">PRODUCTOS Y SERVICIOS</a></li>
-                <li><a href="#reserva">RESERVA</a></li>
-                <li><a href="#ubicacion">ENCUENTRANOS</a></li>
+                <li><a href="#quienesomos">NUESTRA HISTORIA</a></li>
+                <li><a href="reserva.html">RESERVA</a></li>
+                <li><a href="carta.html">NUESTRA CARTA</a></li>
                 <li><a href="#trabaja">UNETE AL EQUIPO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
+
+        <div class="button-menu-container">
+            <button onclick="goToReserve" id="reserveButton">RESERVA</button>
+            <img src="REPOSITORIO/logo-nyora-y-aji-2.png" alt="Logo Nyora y Ají">
+            <button>SUSCRÍBETE</button>  
+        </div>
+        
     </header>
 
     <main>
         <section class="quienesomos" id="quienesomos">
-            <h1>NYORA Y AJI RESTAURANT <br> Te da la bienvenida a tu nueva casa</h1>
-            <h2>¿Quiénes somos?</h2>
-            <div class="presentacion">
-                <p>Somos un restaurante fusión peruano-asiático, donde la tradición culinaria de Perú y Asia se unen
-                para ofrecer una experiencia gastronómica única, con ingredientes frescos y sabores auténticos.
-                Un restaurante  joven, que cuenta con un equipo profesional al que le encanta lo que hace y que trabaja con amor y con pasión.</p>  
-            </div>
-        </section>
+            <article class="introduction">
+              <h1>NYORA Y AJÍ</h1>
+                <p>Te da la bienvenida a tu nueva casa</p>
+                
+                <h2>Un único fin</h2>
+                <p>Hacerte disfrutar al máximo de una experiencia gastronómica única y natural</p>  
+            </article>
+              
+            <article class="images">            
+                <img src="REPOSITORIO/CARPACCIO.PULPO.jpg" alt="Foto de un Carpaccio de Pulpo" title="Carpaccio de Pulpo">
+                <img src="REPOSITORIO/RABO.TORO.jpg" alt="Foto de un plato de Rabo de Toro" title="Rabo de Toro">    
+            </article>
+            
+            <article class="aditional-information">
+                <div class="aditional-1">
+                   <h3>NYORA Y AJÍ</h3>
+                    <p>En nuestro cuidado espacio de Albufereta 13 contamos con un restaurante exclusivo al cual solamente se puede acceder mediante reserva previa.</p>
+                    
+                    <p>Mimamos el más mínimo detalle de toda nuestra oferta, limitando por ello el tiempo de apertura al público.</p>
+                    
+                    <p>Queremos que la experiencia sea un auténtico paseo por la naturaleza gastronómica que envuelve nuestra manera de tomarnos la vida, al más puro estilo mediterráneo.</p>
+                    
+                    <p>Nuestra finalidad es que disfrutes de elaboraciones creativas y esenciales, tratadas bajo los procesos más tradicionales, puros y sencillos.</p>
+                    
+                    <p>Por ello utilizamos materias primas de origen orgánico y de temporada. Así rendimos homenaje a nuestra cultura y a su gastronomía.</p> 
 
-        <section class="productos" id="productos">
-            <h1>Productos y servicios</h1>
-            <div class="galeria">
-                <a href="/REPOSITORIO/TACU.TACU.jpg">
-                    <img src="/REPOSITORIO/TACU.TACU.jpg" alt="Foto de un tacu tacu con potaje" title="Tacu Tacu y Potaje" width="200" height="200">
-                </a>
-                <a href="/REPOSITORIO/EQUIPO2.jpeg">
-                   <img src="/REPOSITORIO/EQUIPO2.jpeg" alt="Foto del equipo de cocina y sala Nyora y ají" title="Equipo de cocina y sala" width="200" height="200"> 
-                </a>
-                <a href="/REPOSITORIO/MELOSO.PULPO.jpg">
-                   <img src="/REPOSITORIO/MELOSO.PULPO.jpg" alt="Foto de un arroz meloso de pulpo" title="Arroz Meloso de Pulpo" width="200" height="200"> 
-                </a>
-                <a href="REPOSITORIO/CARPACCIO.PULPO.jpg">
-                   <img src="/REPOSITORIO/CARPACCIO.PULPO.jpg" alt="Foto de un carpaccio de pulpo" title="Carpaccio de Pulpo" width="200" height="200" loading="lazy"> 
-                </a>
-                <a href="/REPOSITORIO/EQUIPO.jpeg">
-                    <img src="/REPOSITORIO/EQUIPO.jpeg" alt="Foto de parte del equipo de cocina" title="Equipo de cocina" width="200" height="200" loading="lazy">
-                </a>
-                <a href="/REPOSITORIO/CREMOSO.VAINILLA.jpg">
-                   <img src="/REPOSITORIO/CREMOSO.VAINILLA.jpg" alt="Foto de un cremoso de vainilla" title="Cremoso de Vainilla" width="200" height="200" loading="lazy"> 
-                </a>
-                <a href="/REPOSITORIO/MELOSO.GAMBON.jpg">
-                   <img src="/REPOSITORIO/MELOSO.GAMBON.jpg" alt="Foto de un arroz meloso de gambón y algas" title="Meloso de Gambón y Algas" width="200" height="200" loading="lazy"> 
-                </a>
-                <a href="/REPOSITORIO/EQUIPO1.jpeg">
-                   <img src="/REPOSITORIO/EQUIPO1.jpeg" alt="Foto del equipo de cocina y sala al completo" title="Equpo de cocina y sala al completo" width="200" height="200" loading="lazy"> 
-                </a>
-                <a href="/REPOSITORIO/RABO.TORO.jpg">
-                  <img src="/REPOSITORIO/RABO.TORO.jpg" alt="Foto de rabo de toro" title="Rabo de Toro" width="200" height="200" loading="lazy">  
-                </a>
-            </div>
-                <a href="/REPOSITORIO/CARTA.pdf">Ver carta</a>
-        </section>
-        <br>
-
-        <section class="contacto" id="reserva">
-            <h1>Realiza tu Reserva</h1>
-                    <form action="/" method="post">
-
-                        <label for="people">Comensales</label>
-                        <select name="people" id="people">
-                            <optgroup>
-                                <option value="1" selected>1 persona</option>
-                                <option value="2">2 personas</option>
-                                <option value="3">3 personas</option>
-                                <option value="4">4 personas</option>
-                                <option value="5">5 personas</option>
-                                <option value="6">6 personas</option>
-                                <option value="7">7 personas</option>
-                                <option value="8">8 personas</option>
-                                <option value="9">9 personas</option>
-                                <option value="10">10 personas</option>
-                                <option value="11">11 personas</option>
-                                <option value="12">12 personas</option>
-                                <option value="13">13 personas</option>
-                                <option value="14">14 personas</option>
-                            </optgroup>
-                        </select>
-
-                        <label for="zone">Zona</label>
-                        <select name="zone" id="zone">
-                            <optgroup>
-                                <option value="" disabled selected>Seleccione la zona</option>
-                                <option value="Inside">Salón</option>
-                                <option value="Outdoor">Terraza</option>
-                            </optgroup>
-                        </select>
-
-
-
-
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" required>
-
-                            <label for="phone">Teléfono:</label>
-                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" placeholder="Ejemplo: 699 99 99 99" required>
-
-                            <label for="date">Fecha:</label>
-                            <input type="date" name="date" id="date" required>
-
-                            <label for="area">Comentarios:</label>
-                            <textarea name="area" id="area" cols="35" rows="8" placeholder="Indica alguna observación como alergias y/o intolerancias."></textarea>
-
-                            <button style="border-radius: 6px;">Reservar</button>
-                    </form>
-
-
-
-        <section class="ubication" id="ubicacion">
-            <h1>¿Dónde estamos?</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.801098566587!2d-0.5082588874795376!3d38.33043657983894!2m3!1f0!
-                        2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd623738d0104a55%3A0xfd0417eb281a3f1b!2sRestaurante%20%C3%91ora%20y%20Aj%C3%AD!5e0!3m2!1ses!
-                        2ses!4v1722506429434!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-        </section>
-
-
-        <section id="trabaja">
-            <h1>Trabaja con Nosotros</h1>
-
-            <form action="/" method="post"></form>
-            <fieldset>
-                <legend>Datos Personales</legend>
-
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name" required>
-
-                <label for="surname">Apellidos:</label>
-                <input type="text" name="surname" id="surname" required>
-
-                <label for="dni">DNI:</label>
-                <input type="text" pattern="[0-9]{8}[A-Za-z]{1}" required>
-
-                <label for="opciones">Sexo:</label>
-                <input type="radio" name="opciones" id="opciones" value="masculino" required>Masculino <br>
-                <label for="opciones"></label>
-                <input type="radio" name="opciones" id="opciones" value="femenino" required>Femenino
-
-                <label for="fecha">Fecha de Nacimiento</label>
-                <input type="date" id="fecha" name="fecha" required>
-
-                <label for="ciudad">Ciudad:</label>
-                <input type="text" name="ciudad" id="ciudad" required>
-
-                <label for="country">Nacionalidad:</label>
-                <input type="text" name="country" id="country" required>
-
-                <label for="cp">Código Postal:</label>
-                <input type="text" name="cp" id="cp" pattern="[0-9]{5}" required>
-
-                <label for="phone">Teléfono:</label>
-                <input type="tel" name="phone" id="phone" pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" placeholder="Ejemplo: 677 77 77 77" required>
-
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
-            </fieldset>
-
-            <fieldset>
-                <legend>Formación</legend>
-
-                <div>
-                    <label for="exp1">Empresa</label>
-                    <input type="text" name="exp1" id="exp1">
-
-                    <label for="año1">Año</label>
-                    <input type="number" name="año1" id="año1" min="2000">
+                    <button>¿QUIERES SABER MÁS?</button>
                 </div>
 
-                <div>
-                    <label for="exp2">Empresa</label>
-                    <input type="text" name="exp2" id="exp2">
+                <div class="aditional-2">
+                   <h3>NUESTRO ESPACIO</h3>
+                    <p>Cuenta con nosotros para tu evento y juntos podremos planear, escribir y adornar esa historia especial que rodea al gran día.</p>
 
-                    <label for="año2">Año</label>
-                    <input type="number" name="año2" id="año2" min="2000">
+                    <p>Todo lo que te imagines, podemos hacerlo realidad, sea cual sea la dimensión de tu evento.</p>
+
+                    <p>Podemos hacer que tus invitados recuerden ese gran día con especial cariño a través de viajes gastronómicos por el mundo cargados de recuerdos, tradiciones y artesanía.</p>
+                
+                    <p><a href="contacto.html" target="_blank">Si quieres concertar una cita con nosotros puedes hacerlo a través de nuestro formulario de contacto.</a></p> 
+                    
+                    <button>¿HABLAMOS?</button>
                 </div>
-
-                <div>
-                    <label for="exp3">Empresa</label>
-                    <input type="text" name="exp3" id="exp3">
-
-                    <label for="año3">Año</label>
-                    <input type="number" name="año3" id="año3" min="2000">
-                </div>
-
-                <div>
-                    <label for="exp4">Empresa</label>
-                    <input type="text" name="exp4" id="exp4">
-
-                    <label for="año4">Año</label>
-                    <input type="number" name="año4" id="año4" min="2000">
-                </div>
-            </fieldset>
+                
+            </article>
         </section>
+
+        <section class="newsletter">
+            <p>Suscríbete a nuestra newsletter</p>
+            <button>SUSCRIBIRME</button>
+        </section>
+
+         <section id="trabaja" class="work-together">
+            <p>¿TE INTERESA CRECER PROFESIONALMENTE?</p>
+            <h1>ÚNETE A NUESTRO EQUIPO</h1>
+            <p>Este proyecto está en plena expansión,
+               es por ello que estamos en constante búsqueda de personas que amen la hostelería tanto como nosotros.</p>
+            <p>Si estás interesado en formar parte de un equipo de trabajo joven y dinámico <strong><a href="mailto:rrhh@gruponyora.com">escríbenos a rrhh@gruponyora.com</a></strong></p>
+                <img src="REPOSITORIO/corvina.jpg" alt="Foto de una corvina" width="350px">
+         </section>   
+
     </main>
 
-<!-- <nav aria-label="Footer Navigation">
-                <h1>NYORA Y AJI</h1>
-                <div class="menu">
-                    <ul> 
-                        <li><a href="#quienesomos">¿Quiénes somos?</a></li>
-                        <li><a href="#productos">Productos y Servicios</a></li>
-                        <li><a href="#reserva">Reserva una mesa</a></li>
-                        <li><a href="#ubicacion">Encuéntranos</a></li>
-                        <li><a href="#trabaja">Trabaja con Nosotros</a></li>
-                    </ul>  
-                </div>
-            </nav>-->
-    
-    <div class="footer-container">
-       <footer>
+       <footer class="footer-container">
             <div class="information-box">
-                <h1>NYORA Y AJI</h1>
+                <h1>GRUPO NYORA Y AJI</h1>
                 <a href="https://wa.me/34623196560" target="_blank">623 196 560</a>
                 <p> Dársena Pesquera, Local 10</p>
                 <p>03008 · Alicante · España</p>
-                <a href="https://www.google.com/maps/place/Restaurante+%C3%91ora+y+Aj%C3%AD/@38.3304366,
-                        -0.5082535,1081m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd623738d0104a55:0xfd0417eb281a3f1b!8m2!3d38.
-                        3304324!4d-0.5056786!16s%2Fg%2F11h6y_292k?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D" target="_blank"> <strong>¿Cómo llegar?</strong></a>
+                <a href="https://www.google.com/maps/place/Restaurante+%C3%91ora+y+Aj%C3%AD/@38.3293474,-0.5082354,1734m/data=!3m1!1e3!4m6!3m5!1s0xd623738d0104a55:0xfd0417eb281a3f1b!8m2!3d38.3304324!4d-0.5056786!16s%2Fg%2F11h6y_292k?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">¿Cómo llegar?</a>
             </div>
+
+            <nav>
+                <ul class="footer-navigation"> 
+                    <li><a href="#quienesomos">¿Quiénes somos?</a></li>
+                    <li><a href="#productos">Nuestra carta</a></li>
+                    <li><a href="reserva.html">Reserva con Nosotros</a></li>
+                    <li><a href="contacto.html" target="_blank">Contáctanos</a></li>
+                    <li><a href="#trabaja">Únete al equipo</a></li>
+                </ul>
+            </nav>
 
             <div class="link">
                 <ul>
@@ -241,16 +120,15 @@
                 </ul>    
             </div>
 
-                <div class="legal">
-                    <ul>
-                        <li><a href="https://www.apple.com/legal/privacy/es/" target="_blank">Politica de privacidad</a></li>
-                        <li><a href="https://grupogastronou.com/aviso-legal/" target="_blank">Aviso legal</a></li>
-                        <li><a href="https://grupogastronou.com/politica-de-cookies/" target="_blank">Política de cookies</a></li>
-                    </ul>
-                </div>
-
-                <p class="rights">Todos los derechos reservados | &copy; 2024</p>
-        </footer> 
-    </div>
+            <div class="legal">
+                <ul>
+                    <li><a href="politica-privacidad.html" target="_blank">Politica de privacidad</a></li>
+                    <li><a href="terminos-y-condiciones.html" target="_blank">Términos y condiciones</a></li>
+                    <li><a href="aviso-legal.html" target="_blank">Aviso legal</a></li>
+                    <li><a href="politica-cookies.html" target="_blank">Política de cookies</a></li>
+                </ul>
+                <p class="rights">&copy;2024 | Todos los derechos reservados</p>
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+::selection {
+    color: hsl(0, 0%, 100%); /* Color del texto seleccionado */
+    background-color: hsl(0, 0%, 20%); /* Color de fondo del texto seleccionado */
+}
+
+/* Para navegadores como Firefox, necesitas usar esta pseudo-clase adicional */
+::-moz-selection {
+    color: #ffffff; /* Color del texto seleccionado */
+    background-color: #333333; /* Color de fondo del texto seleccionado */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    }
+
+ul,li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu{
+    background-image: url(REPOSITORIO/fondo-restaurante-reserva.jpg);
+    height: 1300px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0;
+    font-size: 16px;
+    gap: 30px;
+}
+
+.navegacion li:nth-child(2) a:link{
+    color: hsl(0, 0%, 93%);
+}
+
+.navegacion li:nth-child(2) a:visited{
+    color: hsl(0, 0%, 93%);
+}
+
+.navegacion li:nth-child(2) a:hover{
+    color: hsl(60, 6%, 87%);
+}
+
+.menu-link a:link{
+color: hsl(0, 0%, 100%);
+}
+
+.menu-link a:visited{
+color: hsl(0, 0%, 100%);
+}
+
+.menu-link a:hover{
+color: hsl(60, 6%, 87%);
+}
+
+
+.menu h1,h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 70px;
+    margin: 0px;
+}
+
+.menu h1{
+    margin-top: 450px;
+}
+
+.logo-nyora{
+    float:left;
+    width: 250px;
+}
+
+.introduction{
+    margin-top: 90px;
+}
+
+.introduction p:first-child{
+   font-size: 14px;
+}
+
+.introduction h1{
+    font-size: 44px;
+    font-weight: 650;
+    margin-top: -8px;
+    margin-bottom: 60px
+}
+
+.introduction h1 + p{
+    font-size: 36px;
+    font-weight: 650;
+}
+
+.reserve-information{
+    font-weight: 500;
+}
+
+.reserve-information:link{
+    color: hsl(0, 0%, 0%);
+}
+
+.reserve-information:hover{
+    color: hsl(0, 0%, 0%);
+}
+
+.reserve-information:visited{
+    color: hsl(0, 0%, 0%);
+}
+
+#reserve-information-button{
+    padding: 15px;
+    margin: 10px;
+    width: 500px;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#reserve-information-button:hover{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid transparent;
+}
+
+.text-gray{
+    color: hsl(0, 0%, 60%);
+}
+
+.section-comensales{
+    margin-top: 60px
+}
+
+.section-comensales h1,
+.section-funcionamiento h1{
+font-size: 34px;
+font-weight: 650;
+}
+
+.contact-link{
+    font-weight: 650;
+}
+
+.contact-link:link{
+color: hsl(0, 0%, 0%);
+}
+
+.contact-link:visited{
+    color: hsl(0, 0%, 0%);
+}
+
+.contact-link:hover{
+    color: hsl(0, 0%, 40%);
+}
+
+.section-funcionamiento{
+    margin-top: 60px
+}
+
+#information-reserve-button{
+    padding: 15px;
+    margin: 30px 0;
+    width: 300px;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#information-reserve-button:hover{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid transparent;
+}
+
+.menus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.menus-container p{
+    width: 500px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.zigzag-separator {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 2px dashed rgb(179, 179, 179); /* Borde con piquitos */
+    height: 0; /* Establece la altura en 0 para evitar doble borde */
+    width: 80%; /* Ajusta el ancho del hr */
+    margin: 20px auto; /* Espacio alrededor y centrado */
+}
+
+.contacto{
+    margin:50px 0;
+}
+
+.contacto p{
+    font-size: 30px
+}
+
+.contacto button{
+    padding: 15px;
+    margin: 10px;
+    width: 140px;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.contacto button:hover{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid transparent;
+}
+
+.contacto a:link{
+    color: hsl(0, 0%, 0%);
+    }
+    
+.contacto a:visited{
+        color: hsl(0, 0%, 0%);
+    }
+    
+.contacto a:hover{
+        color: hsl(0, 0%, 40%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos del footer */
+.information-box a:link{
+    color: hsl(0, 0%, 100%);
+}
+
+.information-box a:visited{
+    color: hsl(0, 0%, 100%); 
+}
+
+.information-box a:hover{
+    color: hsl(0, 0%, 86%);
+}
+
+.information-box{
+    margin: 60px;
+}
+
+.footer-navigation a:link{
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-navigation a:visited{
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-navigation a:hover{
+    color: hsl(0, 0%, 86%);
+}
+
+.footer-navigation li{
+    margin: 15px;
+}
+
+.footer-navigation{
+    margin: 60px;
+}
+
+.link a{
+    filter: invert(100%);
+}
+
+.link{
+    margin: 60px;
+}
+
+.legal a:link{
+    color: hsl(0, 0%, 100%);
+}
+
+.legal a:visited{
+color: hsl(0, 0%, 100%);
+}
+
+.legal a:hover{
+    color: hsl(0, 0%, 86%);
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.legal li,
+.legal p{
+    margin: 10px;
+}
+
+.footer-container{
+    background-color: hsl(0, 0%, 11%);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    height: 330px;
+    display: flex;              /* Activa el modelo de caja flexible (Flexbox), que permite una distribución flexible de los elementos hijos dentro del contenedor */
+    justify-content: center;   /* Se usa con Flexbox y centra horizontalmente los elementos hijos dentro del contenedor */
+    align-items: center;       /* Se usa con Flexbox, y alinea los elementos hijos verticalmente en el centro del contenedor */
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-container h1{
+    font-size: 16px;
+}
