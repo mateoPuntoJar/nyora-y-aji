@@ -25,7 +25,7 @@ ul,li, a{
 }
 
 .menu{
-    background-image: url(REPOSITORIO/fondo-restaurante-reserva.jpg);
+    background-image: url('../assets/fondo-restaurante-reserva.jpg');
     height: 1300px;
 }
 

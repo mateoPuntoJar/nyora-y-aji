@@ -23,7 +23,7 @@ ul,li, a{
 }
 
 .logo{
-    background-image: url(REPOSITORIO/fondo-contacto.jpg);
+    background-image: url('../assets/fondo-contacto.jpg');
     height: 500px;
     background-position: center;
 }

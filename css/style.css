@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: panton;
-    src: url(/REPOSITORIO/fuentes/Open_Sans/OpenSans-Regular.ttf);
+    src: url(/assets/fonts/Open_Sans/OpenSans-Regular.ttf);
     font-weight: normal;
     font-style: normal;
     }
@@ -37,7 +37,7 @@ header{
 .logo{
     width: 100%;
     height: 780px;
-    background-image: url(REPOSITORIO/fondo-negro-menu.jpg);
+    background-image: url('../assets/fondo-negro-menu.jpg');
 }
 
 .button-menu-container{
