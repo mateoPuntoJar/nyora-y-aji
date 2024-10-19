@@ -143,16 +143,20 @@ margin: 15px;
     outline: none;
 }
 
+.formulario-contacto textarea:focus{
+    outline: none;
+}
 
-input[type="checkbox"] {
-    width: 12px;              /* Ancho del checkbox */
-    height: 15px;             /* Altura del checkbox */
+label[for="check"]{
     float: left;
+    width: 300px;
     
 }
 
-input[type="checkbox"]:hover {
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.3);  /* Sombra cuando el mouse pasa por encima */
+input[type="checkbox"]{
+    width: 12px;
+    height: 15px;  
+    float: left;
 }
 
 .formulario-contacto button{

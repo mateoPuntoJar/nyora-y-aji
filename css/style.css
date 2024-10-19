@@ -17,7 +17,12 @@
         color: #ffffff; /* Color del texto seleccionado */
         background-color: #333333; /* Color de fondo del texto seleccionado */
     }
-    
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
 html{
     box-sizing: border-box;
 }
